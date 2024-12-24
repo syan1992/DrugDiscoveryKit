@@ -1,0 +1,40 @@
+OUTPUT_DIR: './test/sider'
+TAG: 'default'
+SEED: 2021
+NUM_FOLDS: 1
+HYPER: True
+HYPER_REMOVE: None
+NUM_ITERS: 30
+
+
+DATA:
+  BATCH_SIZE: 64
+  DATASET: 'sider_1'
+  DATA_PATH: './data/sider_1/'
+  TASK_TYPE: 'classification'
+  METRIC: 'auc'
+  SPLIT_TYPE: 'random'
+  
+
+MODEL:
+  F_ATT: False
+  BRICS: False
+  DEPTH: 2
+  DROPOUT: 0.2
+  SLICES: 4
+  R: 4
+  HID: 128
+
+LOSS:
+  FL_LOSS: False
+  CL_LOSS: False
+
+
+TRAIN:
+  EARLY_STOP: 50
+  MAX_EPOCHS: 200
+  OPTIMIZER:
+    TYPE: 'adam'
+    BASE_LR: 0.00086
+  LR_SCHEDULER:
+    TYPE: 'reduce'

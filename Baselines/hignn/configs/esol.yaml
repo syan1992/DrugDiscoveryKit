@@ -1,0 +1,40 @@
+OUTPUT_DIR: './test/esol'
+TAG: 'default'
+SEED: 2021
+NUM_FOLDS: 1
+HYPER: True
+HYPER_REMOVE: None
+NUM_ITERS: 30
+
+
+DATA:
+  BATCH_SIZE: 40
+  DATASET: 'delaney_1'
+  DATA_PATH: './data/delaney_1/'
+  TASK_TYPE: 'regression'
+  METRIC: 'rmse'
+  SPLIT_TYPE: 'random'
+  
+
+MODEL:
+  F_ATT: False
+  BRICS: False
+  DEPTH: 4
+  DROPOUT: 0.1
+  SLICES: 1
+  R: 4
+  HID: 256
+
+LOSS:
+  FL_LOSS: False
+  CL_LOSS: False
+
+
+TRAIN:
+  EARLY_STOP: 50
+  MAX_EPOCHS: 200
+  OPTIMIZER:
+    TYPE: 'adam'
+    BASE_LR: 0.00064
+  LR_SCHEDULER:
+    TYPE: 'reduce'

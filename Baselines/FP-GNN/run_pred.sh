@@ -1,0 +1,3 @@
+python predict.py  --predict_path ../trimol_dataset/bioavailability_1/raw/test_bioavailability_1.csv  --model_path model_save/bioavailability_1/Seed_0/model.pt  --result_path result/bioavailability_1_pred.csv
+python predict.py  --predict_path ../trimol_dataset/bioavailability_2/raw/test_bioavailability_2.csv  --model_path model_save/bioavailability_2/Seed_0/model.pt  --result_path result/bioavailability_2_pred.csv
+python predict.py  --predict_path ../trimol_dataset/bioavailability_3/raw/test_bioavailability_3.csv  --model_path model_save/bioavailability_3/Seed_0/model.pt  --result_path result/bioavailability_3_pred.csv
