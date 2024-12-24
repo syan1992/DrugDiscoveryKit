@@ -1,4 +1,7 @@
 # Molecular Property Prediction Datasets
+- **Datasets**
+  1. MoleculeNet: https://moleculenet.org/  
+  2. BioADME: https://github.com/molecularinformatics/Computational-ADME  
 - **Problem with BBBP dataset**: 12 SMILES strings in the BBBP dataset fail when parsing with rdkit, all are removed in our splits.   
   https://github.com/deepchem/deepchem/issues/2336  
   These are the smiles strings:  
