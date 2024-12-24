@@ -1,5 +1,5 @@
 # Molecular Property Prediction Datasets
-- **Problem with BBBP dataset**: 12 SMILES strings in the BBBP dataset fail when parsing with rdkit.     
+- **Problem with BBBP dataset**: 12 SMILES strings in the BBBP dataset fail when parsing with rdkit, all are removed in our splits.   
   https://github.com/deepchem/deepchem/issues/2336  
   These are the smiles strings:  
   59 O=N([O-])C1=C(CN=C1NCCSCc2ncccc2)Cc3ccccc3  
