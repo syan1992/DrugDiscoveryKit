@@ -11,7 +11,7 @@
 Models  
 [paper](https://arxiv.org/pdf/2209.01712)
 [code](https://github.com/seyonechithrananda/bert-loves-chemistry)  
-- Tranformer-M
+- Tranformer-M  
 [paper](https://arxiv.org/pdf/2210.01765)
 [code](https://github.com/lsj2408/Transformer-M?tab=readme-ov-file)  
 **2021**
