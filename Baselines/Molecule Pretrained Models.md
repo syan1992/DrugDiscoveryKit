@@ -10,7 +10,7 @@
 - ChemBERTa-2: Towards Chemical Foundation Models  
 [paper](https://arxiv.org/pdf/2209.01712)
 [code](https://github.com/seyonechithrananda/bert-loves-chemistry)  
-- Tranformer-M:ONE TRANSFORMER CAN UNDERST AND BOTH 2D & 3D MOLECULAR DATA   
+- Tranformer-M: ONE TRANSFORMER CAN UNDERST AND BOTH 2D & 3D MOLECULAR DATA   
 [paper](https://arxiv.org/pdf/2210.01765)
 [code](https://github.com/lsj2408/Transformer-M?tab=readme-ov-file)
 
