@@ -1,8 +1,8 @@
 # Molecular Property Prediction Datasets
 - **Datasets**
-  1. MoleculeNet: https://moleculenet.org/  
-  2. BioADME: https://github.com/molecularinformatics/Computational-ADME
-  3. CYP: https://pubs.acs.org/doi/10.1021/acs.jcim.1c00628
+  1. MoleculeNet: [dataset](https://moleculenet.org/)  
+  2. BioADME: [dataset](https://github.com/molecularinformatics/Computational-ADME)
+  3. CYP: [dataset](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00628)
   4. Caco2:
      [paper](https://pubmed.ncbi.nlm.nih.gov/27018227/)
      [dataset](https://github.com/Duke-W91/Caco2_prediction/tree/main)
