@@ -5,7 +5,10 @@
   3. CYP: https://pubs.acs.org/doi/10.1021/acs.jcim.1c00628
   4. Caco2:
      [paper](https://pubmed.ncbi.nlm.nih.gov/27018227/)
-     [dataset](https://github.com/Duke-W91/Caco2_prediction/tree/main)  
+     [dataset](https://github.com/Duke-W91/Caco2_prediction/tree/main)
+  5. MoleculeACE:
+     [paper](https://pubs.acs.org/doi/epdf/10.1021/acs.jcim.2c01073?ref=article_openPDF)
+     [dataset](https://github.com/molML/MoleculeACE/tree/main/MoleculeACE/Data/benchmark_data)
 - **Problem with BBBP dataset**: 12 SMILES strings in the BBBP dataset fail when parsing with rdkit, all are removed in our splits.   
   https://github.com/deepchem/deepchem/issues/2336  
   These are the smiles strings:  
